@@ -10,6 +10,7 @@ As a Data engineer, I architect and design a siolution using all the big data te
 
 
 
+
 We will be considering the following tables :
 
 card_member  -> This table consists of cardholder data and the data is added into this table by a third party service. Following are the fields in the card_member table.
@@ -25,6 +26,8 @@ card_purchase_dt (Purchase date of the card)
 country (Name of the country where the card was purchased)
 
 city (Name of the city where the card was purchased)
+
+
 
 
 
@@ -45,11 +48,15 @@ transaction_dt (date and time of transaction)
 Status (Genuine / Fraud value based on whether the transaction was approved or declined)
 
 
+
+
 member_score -> This table consists of all the credit scores of the card holder. Following are the fields in the member_score table.
 
 member_id (Member id of the cardholder)
 
 score (The score assigned to a member defining his/her credit history)
+
+
 
 
 
@@ -72,4 +79,3 @@ Apart from the above data, There will be real-time data that will be streaming i
 }
 
 
-![image](https://github.com/user-attachments/assets/87635666-746a-4195-b291-20b5ef31dedb)
